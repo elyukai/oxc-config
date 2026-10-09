@@ -27,5 +27,9 @@
     "oxfmt": "^0.72.0",
     "oxlint": "^1.87.0",
     "oxlint-tsgolint": "^7.0.2003"
+  },
+  "repository": "github:elyukai/oxc-config",
+  "bugs": {
+    "url": "https://github.com/elyukai/oxc-config/issues"
   }
 }
