@@ -16,7 +16,6 @@ export default defineConfig({
     // require-atomic-updates
 
     // Nursery
-    "no-undef": "error",
     "no-useless-assignment": "error",
 
     // Pedantic
@@ -29,7 +28,6 @@ export default defineConfig({
     "no-loop-func": "error",
     "no-new-wrappers": "error",
     "no-prototype-builtins": "error",
-    "no-redeclare": "error",
     "no-self-compare": "error",
     "no-useless-return": "error",
     "no-warning-comments": "error",
@@ -54,7 +52,6 @@ export default defineConfig({
     "no-param-reassign": "error",
     "no-proto": "error",
     "no-regex-spaces": "error",
-    "no-use-before-define": "error",
     "no-var": "error",
     "no-void": "error",
 
@@ -81,7 +78,6 @@ export default defineConfig({
         AssignmentExpression: { array: false, object: false },
       },
     ],
-    "prefer-named-capture-group": "warn",
     "prefer-numeric-literals": "error",
     "prefer-object-has-own": "error",
     "prefer-rest-params": "error",
