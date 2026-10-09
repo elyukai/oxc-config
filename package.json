@@ -1,6 +1,6 @@
 {
   "name": "@elyukai/oxc-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared configuration for oxfmt and oxlint across projects",
   "license": "MPL-2.0",
   "author": "Lukas Obermann",
