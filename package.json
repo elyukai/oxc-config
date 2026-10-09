@@ -1,0 +1,29 @@
+{
+  "name": "@elyukai/oxc-config",
+  "version": "0.1.0",
+  "description": "Shared configuration for oxfmt and oxlint across projects",
+  "license": "MPL-2.0",
+  "author": "Lukas Obermann",
+  "type": "module",
+  "files": [
+    "*.config.{js,d.ts}"
+  ],
+  "main": "index.js",
+  "exports": {
+    "./formatter": "./oxfmt.config.js",
+    "./linter": "./oxlint.config.js"
+  },
+  "scripts": {
+    "release": "commit-and-tag-version",
+    "release:sign": "commit-and-tag-version --sign --signoff"
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^13.2.1",
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0"
+  },
+  "peerDependencies": {
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0"
+  }
+}
