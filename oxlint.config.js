@@ -99,10 +99,7 @@ export default defineConfig({
     "preserve-caught-error": "error",
 
     // Import
-    "import/consistent-type-specifier-style": [
-      "error",
-      "prefer-top-level-if-only-type-imports",
-    ],
+    "import/consistent-type-specifier-style": ["error", "prefer-top-level-if-only-type-imports"],
     "import/no-duplicates": ["error", { preferInline: true }],
 
     // Unicorn
@@ -270,4 +267,4 @@ export default defineConfig({
       },
     },
   ],
-});
+})
