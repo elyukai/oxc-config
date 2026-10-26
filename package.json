@@ -17,16 +17,13 @@
     "release": "commit-and-tag-version",
     "release:sign": "commit-and-tag-version --sign --signoff"
   },
-  "devDependencies": {
-    "commit-and-tag-version": "^13.3.0",
+  "dependencies": {
     "oxfmt": "^0.74.0",
     "oxlint": "^1.89.0",
     "oxlint-tsgolint": "^7.0.2005"
   },
-  "peerDependencies": {
-    "oxfmt": "^0.74.0",
-    "oxlint": "^1.89.0",
-    "oxlint-tsgolint": "^7.0.2005"
+  "devDependencies": {
+    "commit-and-tag-version": "^13.3.0"
   },
   "repository": "github:elyukai/oxc-config",
   "bugs": {
