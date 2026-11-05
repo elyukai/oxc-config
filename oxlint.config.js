@@ -257,7 +257,7 @@ export default defineConfig({
   },
   overrides: [
     {
-      files: ["test/**/*.{js,mjs,cjs,ts,mts,cts}"],
+      files: ["test/**/*.{js,mjs,cjs,ts,mts,cts}", "**/*.test.{js,mjs,cjs,ts,mts,cts}"],
       rules: {
         "typescript/no-floating-promises": "off",
       },
