@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.5](https://github.com/elyukai/oxc-config/compare/v0.1.4...v0.1.5) (2026-11-05)
+
+### Bug Fixes
+
+* treat .test subextension as test file ([f757849](https://github.com/elyukai/oxc-config/commit/f757849d977cac4b8b6319080d7d4eb13cbea655))
+
 ## [0.1.4](https://github.com/elyukai/oxc-config/compare/v0.1.3...v0.1.4) (2026-10-26)
 
 ## [0.1.3](https://github.com/elyukai/oxc-config/compare/v0.1.2...v0.1.3) (2026-10-26)
